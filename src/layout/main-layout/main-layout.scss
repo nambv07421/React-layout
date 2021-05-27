@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    .content {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        .header {
+            height: 100px;
+            background-color: burlywood;
+        }
+        .content-outlet {
+            flex: 1;
+            background-color: coral;
+        }
+    }
+    .nav {
+        width: 20%;
+        height: 100vh;
+        background-color: bisque;
+    }
+}
